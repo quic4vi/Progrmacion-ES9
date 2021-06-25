@@ -1,0 +1,23 @@
+body{
+    background-color: #eee;
+}
+p {
+    color:#222fff;
+    text-align: justify;
+    font-size:none;
+    text-indent:40px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    /*modifica los espacios entre cada una de la palabras*/
+    text-shadow: 1px 1px 3px #222fff;
+    /*genera sombrado en la palabras, propiedades:text-shadow: 
+    anchoPX altoPX difuminadoPX #color;*/
+
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing:3px;
+    
+
+}

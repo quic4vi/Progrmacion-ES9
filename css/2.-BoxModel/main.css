@@ -1,0 +1,27 @@
+.body {
+    /*background-color: #eee;
+    /*color de fondo para la caja */
+}
+.login-form {
+    margin: 8px;
+    /*genera un margen al exterior de la caja */
+    padding: 8px;
+    /*gera un margen al interior de la caja (haciendo que esta cresca, muchas veces)*/
+    border-style: solid;
+    /*border-style: dashed (linea puntuada - dencidad);, dotted (linea puntada + dencidad);,
+    double (lineas dobles);, groove (efecto 3d-64bit);, ridge (efecto de infraposicion);,
+    outset(efecto de superposicion);, none(estado por defecto sin alterar);,*/
+    border-width: 8px;
+    border-color: #faa;
+    border-left: 6px solid rgb(36, 208, 36) ;
+    background-color: #aaf; 
+    /*color de fondo para la sub-caja*/
+    border-radius: 6px;
+    height: 100px;
+    width: 100px;
+    color: #575;
+
+}
+/*una propiedad llamativa de css es que este tomara como la correcta la ultima propiedad
+aplicadad a algun objeto de esta manera si se da el caso de un formateado anterior bastaria 
+con incluir el codigo para que este ultimo quedase como el valido */

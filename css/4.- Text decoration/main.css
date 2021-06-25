@@ -1,0 +1,24 @@
+body{
+    background-color: #eee;
+}
+p {
+    color:#222fff;
+    text-align: justify;
+    font-size:none;
+    /*modifica tamaño del texto*/
+    text-indent:40px;
+    /*genera sangria en el texto*/
+    line-height: 1.5;
+    /*modifica espacios entre lineas*/
+}
+a {
+    text-decoration: none;
+    /*genera lineas en texto, propiedaddes admitidas son: 
+    overline, line-trough, underline*/
+    text-transform: capitalize;
+    /*controla uso de mayusculas en texto, propiedades admitidas: 
+    uppercase,lowercase,capitalize, */
+    letter-spacing:3px;
+    /*genera espacios entre cada letra*/
+
+}

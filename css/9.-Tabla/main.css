@@ -1,0 +1,29 @@
+body{
+    background-color:#eee;
+}
+table{
+    width: 100%;
+    /*tablla usara el ancho de toda la ventana*/
+    background-color:white;
+    border-collapse:collapse;
+    /*esta propiedad elimina los border vistuales entre la columnas*/
+
+}
+tr:nth-child(even){
+/*este selector permite una seleccion especifica de los hijos del elemento,
+en este caso los hijos even para haci modificar la propiedadesd solo de estos (alt: odd)*/
+    background-color: #f2f2f2;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+table th{
+    background-color:#4CAF50;
+    color: #fff;
+    text-align: left;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}

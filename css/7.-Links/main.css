@@ -1,0 +1,39 @@
+body{
+    background-color: #eee;
+    padding-top: 10px;
+    /*propiedad necesaria para despegar los elementos en pantalla del margen superior
+    generando un margen interno*/
+}
+
+}
+a {
+    color: blue;
+    /*ultimo selector es el que se hace efectivo. es buena practica establecer este
+     selector para generar un estado por defecto en caso que no existan uno especifico*/
+    background-color: #f00;
+}
+a:link{
+    color:white;
+    /*recordar que los selectores: global(*defecto) -> especifico, deven ser
+     declarados en ese orden. existiendo el selector especifico el selector global sera 
+     ignorado.*/
+    text-decoration: none;
+    background-color: rgb(255, 0, 0);
+    padding: 15px;
+    margin:15px;
+    border-radius: 4px;
+}
+a:visited{
+    color:hotpink;
+    /*despues de ser visitado su estado quedara en color rosado*/
+}
+a:active{
+    color:grey;
+    /*despues de haber tennido actividad su estado sera color negro*/
+}
+a:hover{
+    color: white;
+    /*mientras tenga el foco del mause su estado sera color negro*/
+    text-decoration: none;
+    background-color: rgb(255, 92, 92);
+}

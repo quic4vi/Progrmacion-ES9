@@ -1,0 +1,32 @@
+body{
+    background-color: #eee;
+}
+p {
+    font-family: Verdana;
+    /*modificador de fuente, como propiedad declare cualquier fuente: 
+    monaco; arial; comic;*/
+    font-style: ;
+    /*modificador de estilo sobre la fuente, propiedades:
+    oblique; italic; */
+    font-size: 1em;
+    /*modifica el tamaño del texto: puede ser usado medidas nPX; 
+    nEM(esta unidad permite ser modificada por parte del usuario (default = 16px));*/ 
+    font-weight: ;
+    /*especifica el grosor de la fuente como propiedad: normal; bold;(algunas fuentes 
+    solo aceptan estos valores) 100px ∑ 900;*/
+    color:#222fff;
+    text-align: justify;
+    font-size:none;
+    /*modificador del tamaño, propiedades en px o ~ */
+    text-indent:40px;
+    line-height: 1.5;
+    word-spacing: 10px;
+    text-shadow: 1px 1px 3px #222fff;
+}
+a {
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing:3px;
+    
+
+}

@@ -1,0 +1,14 @@
+body{
+    background-color: #eee;
+}
+p {
+    color:#222fff;
+    text-align: justify;
+    /*establece alineacion del texto, propiedades:height: 
+    left; richt; center; justify; justify-all; start; end; match-parent;
+    https://developer.mozilla.org/en-US/docs/Web/CSS/text-align */
+}
+a {
+
+
+}

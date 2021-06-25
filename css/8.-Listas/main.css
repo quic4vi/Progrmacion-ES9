@@ -1,0 +1,17 @@
+body {
+    background-color:#eee;
+}
+ul {
+    /*NOTA: Tambien puede generarce el indicador "ul li{}"*/
+    list-style-type: none;
+    /*estilo para las viñetas, propiedades: lower-alpha; circle;
+    squre; upper-roman;*/
+    background-color: #fff;
+    border: solid 1px #ddd;
+    border-radius: 4px;
+    
+}
+li {
+    border-bottom: solid 1px #ddd;
+    padding: 15px
+}

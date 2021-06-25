@@ -1,0 +1,15 @@
+/*selectores, estos son "enlaces" entre html y css que son interpretadas 
+como con la intencion de estilizacion con el uso de css*/
+body {
+    background-color: rgb(132, 68, 8);
+    color: rgb(115, 255, 0)
+}
+/*selector de elemento o etiqueta*/
+#id {
+    color: rgb(255, 255, 255)
+}
+/*selector tipo id*/
+.class {
+    color: rgb(0, 128, 255)
+}
+/*selector tipo clases
