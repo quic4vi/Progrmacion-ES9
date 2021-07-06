@@ -1,0 +1,15 @@
+body{
+    background-color: #eee;
+}
+p{
+    width: 350px;
+    /*max-width: establece el ancho maximo pero no el anocho como tal;
+    realmente es el equivalente a solo usar width: con %;*/
+    background-color: #f00;
+    margin: auto;
+    /*para poder este valor el elemento debe tener propiedad y valor display:block;*/
+    position: sticky;
+    /*por defecto todos los elementos tren el valor "estatico" en esta propiedad, osea
+    position: static;
+
+}
