@@ -8,8 +8,15 @@ p{
     background-color: #f00;
     margin: auto;
     /*para poder este valor el elemento debe tener propiedad y valor display:block;*/
-    position: sticky;
-    /*por defecto todos los elementos tren el valor "estatico" en esta propiedad, osea
-    position: static;
+    position: relative;
+    /*
+    *position: static;por defecto todos los elementos traen es valor en esta propiedad,
+    *position: relative; esto hace referencia a mover el elemento con respecto a si mismo 
+    asi es que admite tambien los valores bottom, top, left, right.
+    *position: -webkit-sticky;position: sticky; esto genera la superposicion del elemento,
+    es necesario especificar valores de posicion.
+    *position: fixed; estte valor deja el elemento pegado en una posicion aunque 
+    se genere scroll. Muy util para generar menus desplegables.
 
+    */
 }
