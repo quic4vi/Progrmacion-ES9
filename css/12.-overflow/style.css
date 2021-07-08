@@ -1,0 +1,13 @@
+body {
+    background-color: #eee;
+}
+#over {
+    width: 100px;
+    height: 100px;
+    /*esto genera una caja de las dimenciones especificadas para el elemento*/
+    overflow: auto;
+    /*con esta propiedad+valor la caja antes generada puede generar un scroll 
+    automatico en caso que su contenido exeda el area antes especificada.
+    puede ser forzado overflow-x: ; & overflow-y: ;*/ 
+    
+}
